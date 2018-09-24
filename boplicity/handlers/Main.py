@@ -2,6 +2,7 @@ from tornado.web import RequestHandler
 from libs.database import ShipflowDB
 from data.configuration import TEMPLATE_DIR
 
+
 class HomePageHandler(RequestHandler):
     def get(self):
         db = ShipflowDB()
