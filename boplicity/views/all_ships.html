@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all ships</title>
+</head>
+<body>
+<table>
+{% for i in all_ships %}
+    <tr>
+        <td>{{ i.ship_description }}</td>
+    </tr>
+{% end %}
+</table>
+</body>
+</html>
